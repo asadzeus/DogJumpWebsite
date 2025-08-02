@@ -15,16 +15,16 @@ const Gallery = () => {
   };
 
   return (
-    <div className={`gallery flex justify-center items-center h-screen bg-cover bg-center transition `} style={{ backgroundImage: `url(/ss${imageIndex + 1}.png)` }}>
+    <div className={`gallery flex justify-center items-center overflow-hidden h-screen bg-cover bg-center transition `} style={{ backgroundImage: `url(/ss${imageIndex + 1}.png)` }}>
       <title>Gallery</title>
       <div
         className="left flex justify-start items-center flex-1 ml-15 cursor-pointer"
         onClick={handleLeftClick}
       >
-        <FaArrowLeft size={35}/>
+        <FaArrowLeft size={35} className="text-white"/>
       </div>
       <div className="right flex justify-end items-center flex-1 mr-15 cursor-pointer" onClick={handleRightClick}>
-        <FaArrowRight size={35} />
+        <FaArrowRight size={35} className="text-white"/>
       </div>
     </div>
   );

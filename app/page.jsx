@@ -5,19 +5,19 @@ import { FaXTwitter } from "react-icons/fa6";
 const Home = () => {
 
   return (
-    <div className="home flex justify-center items-center overflow-x-hidden bg-[url(/websitelandingbg.png)] bg-cover lg:bg:contain">
+    <div className="home flex justify-center items-center  overflow-x-hidden bg-[url(/websitelandingbg.png)] bg-cover lg:bg:contain">
       <title>Home</title>
       <div className='left flex flex-col gap-4 justify-center items-center flex-1 text-white h-[calc(100vh-100px)] mt-[100px]'>
 
           <div className="container w-[max-content] flex flex-col justify-center items-start gap-6 mt-15 ml-15">
-            <h1 className="text-4xl font-bold">Best Barber In The Town</h1>
+            <h1 className="text-2xl font-bold sm:text-4xl">Best Barber In The Town</h1>
 
 
-            <ul className="texts flex flex-col justify-center items-start gap-2 list-disc ml-6">
-              <li className="text-lg">Shave new customers with different razors</li>
-              <li className="text-lg">Paint with various sprays</li>
-              <li className="text-lg">Upgrade your shop</li>
-              <li className="text-lg">Become the best barber in you town</li>
+            <ul className="texts flex flex-col justify-center items-start gap-2 list-disc text-sm sm:ml-6 ">
+              <li>Shave new customers with different razors</li>
+              <li>Paint with various sprays</li>
+              <li>Upgrade your shop</li>
+              <li>Become the best barber in you town</li>
             </ul>
 
 
