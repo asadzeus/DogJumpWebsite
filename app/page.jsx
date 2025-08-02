@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Home = () => {
 
   return (
-    <div className="home flex justify-center items-center h-screen bg-[url(/websitelandingbg.png)] bg-cover lg:bg:contain">
+    <div className="home flex justify-center items-center overflow-x-hidden bg-[url(/websitelandingbg.png)] bg-cover lg:bg:contain">
       <title>Home</title>
       <div className='left flex flex-col gap-4 justify-center items-center flex-1 text-white h-[calc(100vh-100px)] mt-[100px]'>
 
