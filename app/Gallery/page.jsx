@@ -15,7 +15,8 @@ const Gallery = () => {
   };
 
   return (
-    <div className={`gallery flex justify-center items-center h-screen bg-cover transition `} style={{ backgroundImage: `url(/ss${imageIndex + 1}.png)` }}>
+    <div className={`gallery flex justify-center items-center h-screen bg-cover bg-center transition `} style={{ backgroundImage: `url(/ss${imageIndex + 1}.png)` }}>
+      <title>Gallery</title>
       <div
         className="left flex justify-start items-center flex-1 ml-15 cursor-pointer"
         onClick={handleLeftClick}

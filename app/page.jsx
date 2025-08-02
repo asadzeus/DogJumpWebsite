@@ -5,10 +5,11 @@ import { FaXTwitter } from "react-icons/fa6";
 const Home = () => {
 
   return (
-    <div className="home flex justify-center items-center h-screen bg-[url(/websitelandingbg.png)] bg-contain">
+    <div className="home flex justify-center items-center h-screen bg-[url(/websitelandingbg.png)] bg-cover lg:bg:contain">
+      <title>Home</title>
       <div className='left flex flex-col gap-4 justify-center items-center flex-1 text-white h-[calc(100vh-100px)] mt-[100px]'>
 
-          <div className="container w-[max-content] flex flex-col justify-center items-start gap-6 mt-15">
+          <div className="container w-[max-content] flex flex-col justify-center items-start gap-6 mt-15 ml-15">
             <h1 className="text-4xl font-bold">Best Barber In The Town</h1>
 
 
@@ -29,6 +30,7 @@ const Home = () => {
             <a href="https://x.com/VixyGamesX" target="blank" className="hover:text-gray-300 transition"><FaXTwitter size={32}/></a>
             
           </div>
+          
         </div>
 
 

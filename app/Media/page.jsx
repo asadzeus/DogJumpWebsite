@@ -7,8 +7,8 @@ const Media = () => {
 
   return (
     <div className="media text-white flex flex-col gap-4 justify-center items-center h-screen bg-cover bg-[url(/websitegallerybg.png))]">
-
-      <div className="container flex flex-col gap-3 justify-center items-center border-2 bg-[#970000] border-white shadow-xl w-[550px] h-[350px] p-5 rounded-xl">
+      <title>Media</title>
+      <div className="container flex flex-col gap-3 justify-center items-center border-2 bg-[#970000] border-white shadow-xl w-[300px] h-[200px] p-5 rounded-xl sm:w-[550px] h-[350px]">
 
 
         <h1 className="text-xl font-bold">Links (Google Drive)</h1>
@@ -18,9 +18,9 @@ const Media = () => {
         <a href="https://drive.google.com/drive/u/0/folders/1rEY1uNZTosm36eAxkKK20ZsGVNWCxkkT" target="_blank" className="font-bold flex justify-center items-center gap-2"><FaCut/> Logos</a>
 
 
-        <div className="email flex justify-center items-center gap-2 mt-10">
+        <div className="email flex flex-col justify-center items-center gap-2 mt-10 text-sm sm:text-lg">
 
-          <h1 className="text-lg font-bold flex justify-center items-center gap-2"><MdEmail/> Media Contact Email: </h1>
+          <h1 className=" font-bold flex justify-center items-center gap-2"><MdEmail/> Media Contact Email: </h1>
 
           <h2>alper.ertugrul.46.123@gmail.com</h2>
         </div>
