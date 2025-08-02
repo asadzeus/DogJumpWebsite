@@ -21,10 +21,10 @@ const Gallery = () => {
         className="left flex justify-start items-center flex-1 ml-15 cursor-pointer"
         onClick={handleLeftClick}
       >
-        <FaArrowLeft size={35} className="text-white"/>
+        <FaArrowLeft size={35} className="text-white hover:scale-[1.1] transition duration-300"/>
       </div>
       <div className="right flex justify-end items-center flex-1 mr-15 cursor-pointer" onClick={handleRightClick}>
-        <FaArrowRight size={35} className="text-white"/>
+        <FaArrowRight size={35} className="text-white hover:scale-[1.1] transition duration-300"/>
       </div>
     </div>
   );
