@@ -16,10 +16,10 @@ const Home = () => {
 
 
             <ul className="texts flex flex-col justify-center items-start gap-2 list-disc text-sm sm:ml-6 ">
-              <li>Shave new customers with different razors</li>
-              <li>Paint with various sprays</li>
-              <li>Upgrade your shop</li>
-              <li>Become the best barber in you town</li>
+              <h2>Shave new customers with different razors</h2>
+              <h3>Paint with various sprays</h3>
+              <h4>Upgrade your shop</h4>
+              <h5>Become the best barber in you town</h5>
             </ul>
 
 
