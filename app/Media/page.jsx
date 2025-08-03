@@ -1,3 +1,4 @@
+"use client"
 import { FaCamera } from "react-icons/fa";
 import { FaVideo } from "react-icons/fa6";
 import { FaCut } from "react-icons/fa";
