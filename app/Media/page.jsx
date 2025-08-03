@@ -4,11 +4,6 @@ import { FaVideo } from "react-icons/fa6";
 import { FaCut } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-export const metadata = {
-  title: 'Media | Barber_Shop_Simulator',
-  description: 'Watch the official trailer, view in-game screenshots, and contact us for press inquiries about Barber_Shop_Simulator.',
-};
-
 
 const Media = () => {
 

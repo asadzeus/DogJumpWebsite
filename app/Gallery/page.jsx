@@ -2,10 +2,6 @@
 import { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-export const metadata = {
-  title: 'Media Page',
-  description: 'Explore the game gallery and check out in-game screenshots and visuals.',
-};
 
 const Gallery = () => {
   const [imageIndex, setImageIndex] = useState(0);
