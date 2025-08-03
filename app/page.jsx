@@ -2,11 +2,20 @@ import { FaSteam } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
+export const metadata = {
+  title: 'Homepage',
+  description: 'Learn more about my game and wishlist it now to support the launch!',
+  icons: {
+    icon: './favicon.ico',
+    apple: './apple-touch-icon.png',
+  },
+};
+
 const Home = () => {
 
   return (
     <div className="home flex justify-center items-center  overflow-x-hidden bg-[url(/websitelandingbg.png)] bg-cover lg:bg:contain">
-      <title>Home</title>
+      <title>Barber Shop Simulator | Official Site</title>
       <div className='left flex flex-col gap-4 justify-center items-center flex-1 text-white h-[calc(100vh-100px)] mt-[100px]'>
 
           <div className="container w-[max-content] flex flex-col justify-center items-start gap-6 mt-15 ml-15">

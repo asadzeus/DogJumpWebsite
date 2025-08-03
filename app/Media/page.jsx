@@ -3,11 +3,17 @@ import { FaVideo } from "react-icons/fa6";
 import { FaCut } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
+export const metadata = {
+  title: 'Media | Barber_Shop_Simulator',
+  description: 'Watch the official trailer, view in-game screenshots, and contact us for press inquiries about Barber_Shop_Simulator.',
+};
+
+
 const Media = () => {
 
   return (
     <div className="media text-white overflow-hidden flex flex-col gap-4 justify-center items-center h-screen bg-cover bg-[#32a895]">
-      <title>Media</title>
+      <title>Barber Shop Simulator | Media</title>
       <div className="container flex flex-col gap-3 justify-center items-center border-2 bg-[#298071] border-white shadow-xl w-[300px] h-[200px] p-5 rounded-xl sm:w-[550px] h-[350px]">
 
 

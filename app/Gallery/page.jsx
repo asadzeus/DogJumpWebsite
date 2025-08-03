@@ -2,6 +2,11 @@
 import { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
+export const metadata = {
+  title: 'Media Page',
+  description: 'Explore the game gallery and check out in-game screenshots and visuals.',
+};
+
 const Gallery = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const imageCount = 5;
@@ -16,7 +21,7 @@ const Gallery = () => {
 
   return (
     <div className={`gallery flex justify-center items-center overflow-hidden h-screen bg-cover bg-center transition `} style={{ backgroundImage: `url(/ss${imageIndex + 1}.png)` }}>
-      <title>Gallery</title>
+      <title>Barber Shop Simulator | Gallery</title>
       <div
         className="left flex justify-start items-center flex-1 ml-15 cursor-pointer"
         onClick={handleLeftClick}
