@@ -1,3 +1,4 @@
+import { Toaster } from 'react-hot-toast'; 
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./global.css";
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
     const schema = {
     "@context": "https://schema.org",
     "@type": "Game",
-    "name": "Barber Shop Simulator",
+    "name": "Dog Jump",
     "description": "A simulation game about managing a barber shop.",
     "url": "https://barbershopsimulator.vercel.app",
     "publisher": {
@@ -44,7 +45,8 @@ export default function RootLayout({ children }) {
       </head>
       <body className="min-h-[100vh] w-full overflow-x-hidden">
         <Navbar/>
-        {children}
+        <Toaster position="top-center" /> 
+ {children}
         <Footer/>
       </body>
     </html>

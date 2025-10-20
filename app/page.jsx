@@ -2,34 +2,35 @@
 import { FaSteam } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+
 
 
 const Home = () => {
 
   return (
-    <div className="home flex justify-center items-center  overflow-x-hidden bg-[url(/websitelandingbg.png)] bg-cover lg:bg:contain">
-      <title>Barber Shop Simulator | Official Site</title>
+    <div className="home flex justify-center items-center overflow-x-hidden bg-[url(/mainbg.png)] bg-cover lg:bg:contain">
+      <title>Dog Jump | Official Site</title>
       <div className='left flex flex-col gap-4 justify-center items-center flex-1 text-white h-[calc(100vh-100px)] mt-[100px]'>
 
-          <div className="container w-[max-content] flex flex-col justify-center items-start gap-6 mt-15 ml-15">
-            <h1 className="text-2xl font-bold sm:text-4xl">Best Barber In The Town</h1>
+          <div className="container w-[50%] flex flex-col justify-center items-start gap-6 mt-15 text-black">
+            <h1 className="text-4xl font-bold sm:text-5xl">Dog Jump</h1>
 
 
-            <ul className="texts flex flex-col justify-center items-start gap-2 list-disc text-sm sm:ml-6 ">
-              <h2>Shave new customers with different razors</h2>
-              <h3>Paint with various sprays</h3>
-              <h4>Upgrade your shop</h4>
-              <h5>Become the best barber in you town</h5>
+            <ul className="texts flex flex-col justify-center items-center gap-2 text-md">
+              <h2 className="bg-red-500 p-3 border-2 rounded-lg"> Dog Jump is a multiplayer hardcore parkour game where you and your friends try to reach the top using pogo sticks. Your character never stops jumping, You just control the movement and timing. Kick your friends, laugh together and race to the finish line!</h2>
+
             </ul>
 
 
-            <a href="https://store.steampowered.com/app/3585060/Barber_Shop_Simulator" target="blank" className="wislistbtn shadow-xl px-6 py-3 bg-white text-black rounded-xl flex justify-center items-center gap-2 text-lg font-bold w-[max-content] hover:bg-[#B40000] hover:text-white transition">Wislist On Steam <FaSteam size={30} /></a>
+            <a href="https://store.steampowered.com/app/4086160/Dog_Jump/" target="blank" className="wislistbtn shadow-xl px-6 py-3 bg-white text-black rounded-xl flex justify-center items-center gap-2 text-lg font-bold w-[max-content] hover:bg-[#B40000] hover:text-white transition">Wislist On Steam <FaSteam size={30} /></a>
 
-
+          
           <div className="links flex justify-center items-center gap-6 mt-5">
-            <a href="https://store.steampowered.com/app/3585060/Barber_Shop_Simulator" target="blank" className="hover:text-gray-300 transition"><FaSteam size={35}/></a>
-            <a href="https://www.youtube.com/@vixygamesofficial" target="blank" className="hover:text-gray-300 transition"><FaYoutube size={44}/></a>
-            <a href="https://x.com/VixyGamesX" target="blank" className="hover:text-gray-300 transition"><FaXTwitter size={32}/></a>
+            <a href="https://store.steampowered.com/app/4086160/Dog_Jump/" target="blank" className="hover:text-blue-500 transition text-white"><FaSteam size={35}/></a>
+            <a href="https://www.youtube.com/@vixygamesofficial" target="blank" className="hover:text-blue-500 transition text-white"><FaYoutube size={44}/></a>
+            <a href="https://x.com/VixyGamesX" target="blank" className="hover:text-blue-500 transition text-white"><FaXTwitter size={32}/></a>
+            <a href="https://www.instagram.com/vixy.games/" target="blank" className="hover:text-blue-500 transition text-white"><FaInstagram size={32}/></a>
             
           </div>
           
@@ -41,7 +42,7 @@ const Home = () => {
 
 
       <div className='right flex justify-center items-center flex-1'>
-
+     
       </div>
     </div>
   );
