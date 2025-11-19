@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     const schema = {
     "@context": "https://schema.org",
     "@type": "Game",
-    "name": "Dog Jump",
+    "name": "Pogo Together",
     "description": "A simulation game about managing a barber shop.",
     "url": "https://barbershopsimulator.vercel.app",
     "publisher": {

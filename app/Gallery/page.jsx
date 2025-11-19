@@ -17,7 +17,7 @@ const Gallery = () => {
 
   return (
     <div className={`gallery flex justify-center items-center overflow-hidden h-screen bg-cover bg-center transition `} style={{ backgroundImage: `url(/ss${imageIndex + 1}.png)` }}>
-      <title>Dog Jump | Gallery</title>
+      <title>Pogo Together | Gallery</title>
       <div
         className="left flex justify-start items-center flex-1 ml-15 cursor-pointer"
         onClick={handleLeftClick}

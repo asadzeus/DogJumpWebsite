@@ -9,7 +9,7 @@ const Media = () => {
 
   return (
     <div className="media text-white overflow-hidden flex flex-col gap-4 justify-center items-center h-screen bg-cover bg-[#32a895] pt-[100px]">
-      <title>Dog Jump | Media</title>
+      <title>Pogo Together | Media</title>
       <div className="container flex flex-col gap-3 justify-center items-center border-2 bg-[#298071] border-white shadow-xl w-[300px] h-[200px] p-5 rounded-xl sm:w-[550px] h-[350px]">
 
 
